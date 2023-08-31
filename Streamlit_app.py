@@ -6,7 +6,9 @@ Largest among 3 numbers
 #Get Input
 
 def find_largest(num1, num2, num3):
-    return max(num1, num2, num3)
+    if (a>=b && a>=c) return a
+    elif (b>=a && b>=c) return b
+    else return c
 
 def main():
     num1 = st.number_input("Enter the first number:")
